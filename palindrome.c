@@ -9,7 +9,7 @@ while(n>0)
 rev=rev*10+n%10;
 n/=10;
 }
-if(tempvar==n)
+if(tempvar==rev)
 {
 printf("yes");
 }
